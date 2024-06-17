@@ -1,7 +1,9 @@
 # DocumentClustering task using NMF method and K-Means.
 
 
-ACQ dataset from official R collection.
+ACQ dataset from official R collection. 
+
+Implementation is inspired by paper: https://people.eecs.berkeley.edu/~jfc/hcc/courseSP05/lecs/lec14/NMF03.pdf
 
 
 
