@@ -7,6 +7,7 @@ ACQ dataset(https://www.rdocumentation.org/packages/tm/versions/0.7-12/topics/ac
 Implementation is inspired by paper: https://people.eecs.berkeley.edu/~jfc/hcc/courseSP05/lecs/lec14/NMF03.pdf
 
 Entire methodology can be found in article [NMF Document clustering](Doc_clustering.pdf) (Croatian)
+
 I provide the [Presentation](Nenegativna matrična faktorizacija_final.pptx) as well where I present most important details/results.
 
 
