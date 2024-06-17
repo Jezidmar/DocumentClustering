@@ -13,4 +13,4 @@ I provide the [Presentation](Nenegativna matrična faktorizacija_final.pptx) as 
 I compare the 2 variants of NMF differing only by the optimization algorithm with standard K-means algorithm. In the first implementation, the Frobenius norm is minimized whereas in the second one the distributional distance is minimized, or the KL-Divergence.
 
 
-Since the observed Dataset had data originally belonging to only one cluster, the standard (supervised) benchmarking was useless so I experimented with Sampling methods to observe the consistency of predictions in scenarios where I removed random 20% of feature space. The Hungarian algorithm is used for consistent annotation of clusters. More in paper! :)
+Since the observed Dataset had data originally belonging to only one cluster, the standard (supervised) benchmarking was useless so I experimented with Sampling methods to observe the consistency of predictions in scenarios where I removed random 20% of feature space. The Hungarian algorithm is used for consistent annotation of clusters. Moreover, I explore the numerical challenges occuring when such algorithm is implemented from scratch. More in paper! :)
