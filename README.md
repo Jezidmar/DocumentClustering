@@ -6,7 +6,7 @@ ACQ dataset from official R collection.
 
 Implementation is inspired by paper: https://people.eecs.berkeley.edu/~jfc/hcc/courseSP05/lecs/lec14/NMF03.pdf
 
-
+Entire methodology can be found in article [NMF Document clustering](
 
 
 Dataset is selected so there is no clear difference between articles. We took 50 of them and examined consistency of clustering and based on that did our decision
