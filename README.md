@@ -20,6 +20,5 @@ This project explores document clustering using Non-Negative Matrix Factorizatio
 
 * **Sampling and Consistency:** Random 20% feature space removal is used to assess prediction consistency under various scenarios.
 * **Hungarian Algorithm:** The Hungarian algorithm ensures consistent cluster annotation.
-* **Numerical Challenges:** The project investigates numerical difficulties associated with implementing the Hungarian algorithm from scratch. Refer to the "[NMF Document clustering](Doc_clustering.pdf)" paper for further details.
+* **Numerical Challenges:** The project investigates numerical difficulties associated with implementing the NMF algorithm from scratch. Refer to the "[NMF Document clustering](Doc_clustering.pdf)" paper for further details.
 
-**Overall, this project demonstrates the application of NMF and K-Means for document clustering in R, while exploring methods for analyzing consistency and handling specific data characteristics.**
