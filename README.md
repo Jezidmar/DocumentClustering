@@ -10,8 +10,4 @@ Entire methodology can be found in article [NMF Document clustering](Doc_cluster
 
 I provide the [Presentation](Nenegativna matrična faktorizacija_final.pptx) as well where I present most important details/results.
 
-
-Dataset is selected so there is no clear difference between articles. We took 50 of them and examined consistency of clustering and based on that did our decision
-We use Frobenius norm as default metric of distance. In the pptx file, we did a comparison with the Kulback Leibler divergence method too.
-
-#TODO translate all to english.
+I compare the 2 variants of NMF differing only by the optimization algorithm with standard K-means algorithm. In the first implementation, the Frobenius norm is minimized whereas in the second one the distributional distance is minimized, or the KL-Divergence.
