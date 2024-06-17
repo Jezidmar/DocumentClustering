@@ -1,16 +1,25 @@
-# DocumentClustering task using NMF method and K-Means.
+## Document Clustering with Non-Negative Matrix Factorization (NMF) and K-Means
 
-Project is made in programming language R.
+This project explores document clustering using Non-Negative Matrix Factorization (NMF) and K-Means algorithms implemented in R.
 
-ACQ dataset(https://www.rdocumentation.org/packages/tm/versions/0.7-12/topics/acq) from official R collection. 
+**Data and Inspiration:**
 
-Implementation is inspired by paper: https://people.eecs.berkeley.edu/~jfc/hcc/courseSP05/lecs/lec14/NMF03.pdf
+* **Dataset:** The ACQ dataset (https://cran.r-project.org/web/packages/tm/vignettes/tm.pdf) from the official R collection is used.
+* **Paper Inspiration:** The implementation is inspired by the paper "NMF03.pdf" (https://people.eecs.berkeley.edu/~jfc/hcc/courseSP05/lecs/lec14/NMF03.pdf).
+* **Detailed Methodology:** A comprehensive explanation of the methodology is provided in "[NMF Document clustering](Doc_clustering.pdf)" (Croatian).
 
-Entire methodology can be found in article [NMF Document clustering](Doc_clustering.pdf) (Croatian)
+**Presentation and Comparison:**
 
-I provide the [Presentation](Nenegativna matrična faktorizacija_final.pptx) as well where I present most important details/results.
+* **Results and Details:** A presentation, "[Nenegativna matrična faktorizacija_final.pptx]" (Croatian), showcases key points and findings.
+* **NMF Variants Compared:** Two NMF variants are evaluated:
+    * Minimizing the Frobenius norm
+    * Minimizing the distributional distance (KL-Divergence)
+* **Benchmarking:** Standard benchmarking was not applicable due to the single-cluster nature of the original dataset.
 
-I compare the 2 variants of NMF differing only by the optimization algorithm with standard K-means algorithm. In the first implementation, the Frobenius norm is minimized whereas in the second one the distributional distance is minimized, or the KL-Divergence.
+**Addressing Challenges:**
 
+* **Sampling and Consistency:** Random 20% feature space removal is used to assess prediction consistency under various scenarios.
+* **Hungarian Algorithm:** The Hungarian algorithm ensures consistent cluster annotation.
+* **Numerical Challenges:** The project investigates numerical difficulties associated with implementing the Hungarian algorithm from scratch. Refer to the "[NMF Document clustering](Doc_clustering.pdf)" paper for further details.
 
-Since the observed Dataset had data originally belonging to only one cluster, the standard (supervised) benchmarking was useless so I experimented with Sampling methods to observe the consistency of predictions in scenarios where I removed random 20% of feature space. The Hungarian algorithm is used for consistent annotation of clusters. Moreover, I explore the numerical challenges occuring when such algorithm is implemented from scratch. More in paper! :)
+**Overall, this project demonstrates the application of NMF and K-Means for document clustering in R, while exploring methods for analyzing consistency and handling specific data characteristics.**
