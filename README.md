@@ -6,11 +6,11 @@ This project explores document clustering using Non-Negative Matrix Factorizatio
 
 * **Dataset:** The ACQ dataset (https://cran.r-project.org/web/packages/tm/vignettes/tm.pdf) from the official R collection is used.
 * **Paper Inspiration:** The implementation is inspired by the paper "NMF03.pdf" (https://people.eecs.berkeley.edu/~jfc/hcc/courseSP05/lecs/lec14/NMF03.pdf).
-* **Detailed Methodology:** A comprehensive explanation of the methodology is provided in "[NMF Document clustering](Doc_clustering.pdf)" (Croatian).
+* **Detailed Methodology:** A comprehensive explanation of the methodology is provided in [NMF Document clustering](Doc_clustering.pdf) (Croatian).
 
 **Presentation and Comparison:**
 
-* **Results and Details:** A presentation, "[NMF](nmf.pptx)" (Croatian), showcases key points and findings.
+* **Results and Details:** A presentation, [NMF](nmf.pptx) (Croatian), showcases key points and findings.
 * **NMF Variants Compared:** Two NMF variants are evaluated:
     * Minimizing the Frobenius norm
     * Minimizing the distributional distance (KL-Divergence)
