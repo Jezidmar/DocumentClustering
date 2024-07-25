@@ -10,7 +10,7 @@ This project explores document clustering using Non-Negative Matrix Factorizatio
 
 **Presentation and Comparison:**
 
-* **Results and Details:** A presentation, "[Nenegativna matrična faktorizacija_final.pptx]" (Croatian), showcases key points and findings.
+* **Results and Details:** A presentation, "(Nenegativna matrična faktorizacija_final.pptx)" (Croatian), showcases key points and findings.
 * **NMF Variants Compared:** Two NMF variants are evaluated:
     * Minimizing the Frobenius norm
     * Minimizing the distributional distance (KL-Divergence)
